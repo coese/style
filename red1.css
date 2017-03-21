@@ -842,12 +842,12 @@ blockquote {
 
 
 tr.unreadpm {
-	background-color: #c0cBcF;
+	background-color: #E0EBEF;
 }
 
 /* Layout (collages) */
 .collage_images li {
-	background-color: #d7d6d2;
+	background-color: #F7F6F2;
 	vertical-align: middle;
 }
 
