@@ -751,11 +751,11 @@ ul.poll li.graph {
 }
 
 .torrent_table tr.group {
-	background-color:#cFcFcF;
+	background-color:#EFEFEF;
 }
 .torrent_table tr.group_torrent {
-	background-color:#dbdad8;
-	border-bottom:1px solid #eeeeee;
+	background-color:#fbfaf8;
+	border-bottom:1px solid #efefef;
 }
 
 tr.group_torrent td,
@@ -765,7 +765,7 @@ tr.torrent td {
 }
 .torrent_table.grouping tr.torrent,
 .torrent_table.no_grouping tr.torrent {
-	background-color:#dFdFdF;
+	background-color:#EFEFEF;
 }
 
 .torrent_table div.tags {
