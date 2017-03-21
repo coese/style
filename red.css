@@ -7,10 +7,10 @@ This design incorporates some code from the 'Customize Zeal' Greasemonkey script
 
 
 /* Global */
-@font-face { font-family: Akzidenz; src: url('https://redacted.ch/static/styles/postmod/images/Akzidenz.otf'); }
-@font-face { font-family: Officina; src: url('https://redacted.ch/static/styles/postmod/images/Officina.otf'); }
-@font-face { font-family: Corpid; src: url('https://redacted.ch/static/styles/postmod/images/CorpidOffice.ttf'); }
-@font-face { font-family: Avant; src: url('https://redacted.ch/static/styles/postmod/images/Avant.otf'); }
+@font-face { font-family: Akzidenz; src: url('images/Akzidenz.otf'); }
+@font-face { font-family: Officina; src: url('images/Officina.otf'); }
+@font-face { font-family: Corpid; src: url('images/CorpidOffice.ttf'); }
+@font-face { font-family: Avant; src: url('images/Avant.otf'); }
 
 * {
 	padding: 0em;
@@ -22,7 +22,7 @@ html {
 }
 
 body {
-	background: #000 url('https://redacted.ch/static/styles/postmod/images/wood.jpg') no-repeat fixed;
+	background: #000 url('images/wood.jpg') no-repeat fixed;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 9pt;
 	color: #EEE;
@@ -79,10 +79,10 @@ a[onclick^="AddArtistField"]:focus, a[onclick^="AddArtistField"]:active {
 	padding: 0 !important;
 }
 
-.main_column a[href^="http"], .main_column a[href^="https"] { padding: 0 10px 0 0; background: url(https://redacted.ch/static/styles/postmod/images/external.png) 100% 4px no-repeat; }
-.main_column a[href^="http"]:hover, .main_column a[href^="https"]:hover { padding: 0 10px 0 0; background: url(https://redacted.ch/static/styles/postmod/images/external.png) 100% 4px no-repeat !important; }
-.forum_post a[href^="http"], .forum_post a[href^="https"] { padding: 0 10px 0 0; background: url(https://redacted.ch/static/styles/postmod/images/external.png) 100% 4px no-repeat; }
-.forum_post a[href^="http"]:hover, .forum_post a[href^="https"]:hover { padding: 0 10px 0 0; background: url(https://redacted.ch/static/styles/postmod/images/external.png) 100% 4px no-repeat; }
+.main_column a[href^="http"], .main_column a[href^="https"] { padding: 0 10px 0 0; background: url(images/external.png) 100% 4px no-repeat; }
+.main_column a[href^="http"]:hover, .main_column a[href^="https"]:hover { padding: 0 10px 0 0; background: url(images/external.png) 100% 4px no-repeat !important; }
+.forum_post a[href^="http"], .forum_post a[href^="https"] { padding: 0 10px 0 0; background: url(images/external.png) 100% 4px no-repeat; }
+.forum_post a[href^="http"]:hover, .forum_post a[href^="https"]:hover { padding: 0 10px 0 0; background: url(images/external.png) 100% 4px no-repeat; }
 .head a[href^="http"]:hover, .head a[href^="https"]:hover, .colhead a[href^="http"]:hover, .colhead a[href^="https"]:hover, .colhead_dark a[href^="http"]:hover, .colhead_dark a[href^="https"]:hover { padding: 0 10px 0 0; background: url(images/external.png) 100% 4px no-repeat; }
 .forum_post a[href^="http"] img, .forum_post a[href^="https"] img { padding: 0 0 0 0; background: transparent !important; border: none; }
 .forum_post a[href^="http"] img:hover, .forum_post a[href^="https"] img:hover { padding: 0 0 0 0; background: transparent !important; border: none; }
@@ -155,13 +155,13 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	margin: 0 auto 0 auto;
 	border: 1px solid #222;
 	color: #DFDFDF;
-	background: transparent url('https://redacted.ch/static/styles/postmod/images/content.png');
+	background: transparent url('images/content.png');
 	padding: 40px 22px;
 	overflow: hidden;
 }
 
 #alerts {
-	background: transparent url('https://redacted.ch/static/styles/postmod/images/content.png');
+	background: transparent url('images/content.png');
 	padding: 4px 9px;
 	margin: -19px auto 0 auto;
 	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
@@ -169,7 +169,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #footer {
-	background: transparent url('https://redacted.ch/static/styles/postmod/images/bg_footer.png');
+	background: transparent url('images/bg_footer.png');
 	margin-top: 40px;
 	width: 100%;
 	text-align: center;
@@ -179,7 +179,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #footer:after {
-	content: url('https://redacted.ch/static/styles/postmod/images/gazelle.png');
+	content: url('images/gazelle.png');
 }
 
 #disclaimer_container {
@@ -191,15 +191,15 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	width: 138px;
 	height: 70px;
 	background: url('http://i.imgur.com/52eyI1L.png') no-repeat top left;
-	margin: 23px 0 0 11px;
+	margin: 7px 0 0 11px;
 	position: absolute;
 	z-index: 2;
 }
 
 #logo a {
 	border: none;
-	width: 138px;
-	height: 37px;
+	width: 100%;
+	height: 100%;
 	display: block;
 }
 
@@ -361,7 +361,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	padding: 0 2px 0 10px;
 	font-family: Helvetica, Arial, sans-serif;
 	height: 22px;
-	background: url('https://redacted.ch/static/styles/postmod/images/content_light.png') transparent;
+	background: url('images/content_light.png') transparent;
 	color: #FFF;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
@@ -370,14 +370,14 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #autocomplete {
-	background: url('https://redacted.ch/static/styles/postmod/images/content.png');
+	background: url('images/content.png');
 	border: 1px solid #EEE;
 	list-style: none;
 }
 
 #searchbars input:active,
 #searchbars input:focus {
-	background: url('https://redacted.ch/static/styles/postmod/images/content.png');
+	background: url('images/content.png');
 	border: 1px solid #EEE;
 }
 
@@ -406,7 +406,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	left: 0;
 	z-index: 1000;
 	border: 1px solid #EEE;
-	background: url('https://redacted.ch/static/styles/postmod/images/content.png');
+	background: url('images/content.png');
 	width: 12em;
 	margin-top: 12px;
 }
@@ -461,7 +461,7 @@ table.grouping>tbody>tr.colhead>td:first-child+td+td,
 table.no_grouping>tbody>tr.group>td:first-child+td,
 table.no_grouping>tbody>tr.colhead>td:first-child+td { /*text-indent:-20px;*/ border-left: none;}
 
-.last_read {width: 15px; height: 15px; background: url('https://redacted.ch/static/styles/postmod/images/go_last_read.png') no-repeat center center; margin-left: 5px;}
+.last_read {width: 15px; height: 15px; background: url('images/go_last_read.png') no-repeat center center; margin-left: 5px;}
 .last_read a { border: none; width: 100%; height: 100%; display: block; }
 .last_read a:hover { border: none; }
 .last_read a:active, .last_read a:focus { outline: 0; }
@@ -558,6 +558,10 @@ p.min_padding {
 	font-size: 8pt;
 }
 
+.box_request_desc {
+	word-wrap: break-word;
+}
+
 .tags {
 	padding: 0px 0px 0px 20px;
 	font-style: italic;
@@ -608,7 +612,7 @@ td, th {
 
 .colhead, .colhead_dark, .head {
 	padding: 4px;
-	background: #000 url('https://redacted.ch/static/styles/postmod/images/table_header_dark.png') repeat-x;
+	background: #000 url('images/table_header_dark.png') repeat-x;
 	border-bottom: 1px solid #000;
 	color: #FBFCFD;
 }
@@ -698,7 +702,7 @@ ul.poll li.graph {
 .show_torrents {
 	width: 28px;
 	height: 28px;
-	background: url('https://redacted.ch/static/styles/postmod/images/show.png') no-repeat center center;
+	background: url('images/show.png') no-repeat center center;
 	-moz-opacity: 0.5;
 	opacity:.50;
 	filter: alpha(opacity=50);
@@ -707,7 +711,7 @@ ul.poll li.graph {
 .hide_torrents {
 	width: 28px;
 	height: 28px;
-	background: url('https://redacted.ch/static/styles/postmod/images/hide.png') no-repeat center center;
+	background: url('images/hide.png') no-repeat center center;
 	-moz-opacity: 0.5;
 	opacity:.50;
 	filter: alpha(opacity=50);
@@ -788,14 +792,14 @@ tr.torrent td {
 
 /* Layout (Forums) */
 
-.unread_locked_sticky{background: url('https://redacted.ch/static/styles/postmod/images/locked_sticky_unread.png') no-repeat center center;}
-.read_locked_sticky{background: url('https://redacted.ch/static/styles/postmod/images/locked_sticky_read.png') no-repeat center center;}
-.read_sticky{background: url('https://redacted.ch/static/styles/postmod/images/sticky_read.png') no-repeat center center;}
-.unread_sticky{background: url('https://redacted.ch/static/styles/postmod/images/sticky_unread.png') no-repeat center center;}
-.unread_locked{background: url('https://redacted.ch/static/styles/postmod/images/locked_unread.png') no-repeat center center;}
-.read_locked{background: url('https://redacted.ch/static/styles/postmod/images/locked_read.png') no-repeat center center;}
-.unread{background: url('https://redacted.ch/static/styles/postmod/images/unread.png') no-repeat center center;}
-.read{background: url('https://redacted.ch/static/styles/postmod/images/read.png') no-repeat center center;}
+.unread_locked_sticky{background: url('images/locked_sticky_unread.png') no-repeat center center;}
+.read_locked_sticky{background: url('images/locked_sticky_read.png') no-repeat center center;}
+.read_sticky{background: url('images/sticky_read.png') no-repeat center center;}
+.unread_sticky{background: url('images/sticky_unread.png') no-repeat center center;}
+.unread_locked{background: url('images/locked_unread.png') no-repeat center center;}
+.read_locked{background: url('images/locked_read.png') no-repeat center center;}
+.unread{background: url('images/unread.png') no-repeat center center;}
+.read{background: url('images/read.png') no-repeat center center;}
 
 table.forum_post {
 	margin: 10px 0px;
@@ -815,7 +819,7 @@ td.avatar {
 }
 
 table.forum_post td.body {
-	width:690px;
+	max-width:690px;
 }
 
 #quickreplypreview .forum_post {
@@ -906,9 +910,9 @@ ul .invitetree {
 .poll li { clear: both; }
 .poll .graph { padding: 0 0 15px 0; }
 .poll .graph span { display: block; height: 19px; float: left; }
-.poll .graph .left_poll { width: 9px; background: url('https://redacted.ch/static/styles/postmod/images/poll_left.png') top left no-repeat; }
-.poll .graph .center_poll { background: url('https://redacted.ch/static/styles/postmod/images/poll_middle.png') top left repeat-x; }
-.poll .graph .right_poll { width: 11px; background: url('https://redacted.ch/static/styles/postmod/images/poll_right.png') top left no-repeat; }
+.poll .graph .left_poll { width: 9px; background: url('images/poll_left.png') top left no-repeat; }
+.poll .graph .center_poll { background: url('images/poll_middle.png') top left repeat-x; }
+.poll .graph .right_poll { width: 11px; background: url('images/poll_right.png') top left no-repeat; }
 
 .curtain {
 	position: fixed;
@@ -943,7 +947,7 @@ ul .invitetree {
 }
 
 input[type="button"], input[type="submit"] {
-	background: #111 url(https://redacted.ch/static/styles/postmod/images/alert-overlay.png) repeat-x;
+	background: #111 url(images/alert-overlay.png) repeat-x;
 	display: inline-block;
 	padding: 3px 6px 4px;
 	margin: 3px;
@@ -969,7 +973,7 @@ input[type="button"]:active , input[type="submit"]:active {
 }
 
 input[type="button"]:active, input[type="button"]:focus, input[type="submit"]:active, input[type="submit"]:focus {
-/*	background: #262626 url(https://redacted.ch/static/styles/postmod/images/load.gif) no-repeat center center; */
+/*	background: #262626 url(images/load.gif) no-repeat center center; */
 	display: inline-block;
 	padding: 3px 6px 4px;
 	margin: 3px;
@@ -987,7 +991,7 @@ input[type="button"]:active, input[type="button"]:focus, input[type="submit"]:ac
 }
 
 input[type="text"], input[type="email"], input[type="password"], input[type="search"] {
-	background: #111 url(https://redacted.ch/static/styles/postmod/images/alert-overlay.png) repeat-x;
+	background: #111 url(images/alert-overlay.png) repeat-x;
 	display: inline-block;
 	padding: 3px;
 	margin: 3px;
@@ -1018,7 +1022,7 @@ input[type="password"]:active {
 }
 
 input[disabled="disabled"] {
-	background: #4F4F4F url(https://redacted.ch/static/styles/postmod/images/alert-overlay.png) repeat-x;
+	background: #4F4F4F url(images/alert-overlay.png) repeat-x;
 	color: #DFDFDF;
 }
 input[disabled="disabled"]:hover, input[disabled="disabled"]:focus, input[disabled="disabled"]:active {
@@ -1035,7 +1039,7 @@ select[disabled=disabled] { background: #4F4F4F; color: #DFDFDF; }
 select[disabled=disabled]:hover, select[disabled=disabled]:focus, select[disabled=disabled]:active { background-color: #4F4F4F; color: #DFDFDF; }
 
 select, select:active, select:focus {
-	background: #111 /*url(https://redacted.ch/static/styles/postmod/images/alert-overlay.png)*/ repeat-x;
+	background: #111 /*url(images/alert-overlay.png)*/ repeat-x;
 	display: inline-block;
 	margin: 3px;
 	color: #fff;
