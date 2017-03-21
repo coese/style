@@ -241,12 +241,12 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #menu ul li a:hover {
-	border-bottom: 3px solid #95A8BC;
+	border-bottom: 3px solid #EFB34A;
 	text-decoration: none;
 }
 
 #menu ul li a:active, #menu ul li a:focus {
-	border-bottom: 3px solid #8eb2ab;
+	border-bottom: 3px solid #EFA82C;
 }
 
 #index #nav_index a, #torrents #nav_torrents a, #collage #nav_collages a, #requests #nav_requests a, #forums #nav_forums a, #chat #nav_irc a, #top10 #nav_top10 a, #rules #nav_rules a, #wiki #nav_wiki a, #staff #nav_staff a {
@@ -522,13 +522,13 @@ p.min_padding {
 
 .box {
 	font-size: 10pt;
-	background-color: #d7d6d2;
+	background-color: #F7F6F2;
 	margin-bottom: 10px;
 }
 
 .box2 {
 	font-size: 10pt;
-	background-color: #d7d6d2;
+	background-color: #F7F6F2;
 	margin-bottom: 10px;
 }
 
@@ -593,15 +593,15 @@ table {
 
 tr {
 	border: none;
-	background-color: #cbcac8;
+	background-color: #fbfaf8;
 }
 
 tr.rowa {
-	background-color: #d0d0d0;
+	background-color: #F0F0F0;
 }
 
 tr.rowb {
-	background-color: #cFcFcF;
+	background-color: #FFFFFF;
 }
 
 td, th {
@@ -665,7 +665,7 @@ tr.peer_list td {
 .save_message {
 	border: 1px solid #666;
 	padding: 3px 0px 3px 0px;
-	background-color: #70d5f9;
+	background-color: #F4E649;
 	text-align: center;
 	color: #492802;
 }
