@@ -1,4 +1,4 @@
-# Style RED
+# Style RED Postmod Theme
 
 https://cdn.rawgit.com/coese/style/master/RED-postmod.css
 
