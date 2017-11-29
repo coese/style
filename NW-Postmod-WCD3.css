@@ -191,18 +191,18 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #logo {
-	width: 138px;
-	height: 37px;
+	width: 163px;
+	height: 70px;
 	background: url('https://art.notwhat.co/a01247a0e46df39c37ae1c789c769dc5.png') no-repeat top left;
-	margin: 23px 0 0 11px;
+	margin: 7px 0 0 11px;
 	position: absolute;
 	z-index: 2;
 }
 
 #logo a {
 	border: none;
-	width: 138px;
-	height: 37px;
+	width: 100px;
+	height: 100px;
 	display: block;
 }
 
