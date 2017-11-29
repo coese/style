@@ -462,7 +462,7 @@ input:focus, textarea:focus { border: 1px solid #EEE !important }
 
 #alerts {
 	width: 230px;
-	margin: 65px 0px 0px 338px;
+	margin: 95px 0px 0px 338px;
 	position: absolute;
 	text-align: center;
 	color: #FFF;
