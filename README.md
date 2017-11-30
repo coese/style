@@ -10,4 +10,10 @@ https://cdn.rawgit.com/coese/style/master/postmod--PTH.css
 
 https://cdn.rawgit.com/coese/style/master/NW-Postmod.css
 
+https://cdn.rawgit.com/coese/style/master/NW-Postmod2.css
+
+https://cdn.rawgit.com/coese/style/master/NW-Postmod3.css
+
+https://cdn.rawgit.com/coese/style/master/NW-Postmod4.css
+
 # Enjoy!
