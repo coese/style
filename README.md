@@ -18,4 +18,6 @@ https://cdn.rawgit.com/coese/style/master/NW-Postmod4.css
 
 https://cdn.rawgit.com/coese/style/master/NW-Postmod5.css
 
+https://cdn.rawgit.com/coese/style/master/NW-Postmod6.css
+
 # Enjoy!
