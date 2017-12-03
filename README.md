@@ -2,7 +2,7 @@
 
 https://cdn.rawgit.com/coese/style/master/RED-Postmod-PTH.css
 
-https://cdn.rawgit.com/coese/style/master/RED-Postmod-PTH2.css
+https://cdn.rawgit.com/coese/style/master/RED-Postmod-PTH-2.css
 
 https://cdn.rawgit.com/coese/style/master/RED-Postmod-WCD.css
 
